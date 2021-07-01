@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    height: 100vh;
+    background-color: rgb(153, 238, 238);
+
+}
+
+.container{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+} 
+
+
+.btn-class{
+    margin-top: 20px;
+}
+
+.btn{
+    font-size: 25px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    width: 90px;
+    padding: 3px 2px;
+    margin-left: 800px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
