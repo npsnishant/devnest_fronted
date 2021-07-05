@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper{
+    height: 100vh;
+    background-color: cyan;
+    position: relative;
+}
+
+.card-template{
+    text-align: center;
+    padding-top:70px ;
+}
+
+
+.card-container{
+    width: fit-content;
+    /* height: 500px; */
+    background-color: rebeccapurple;
+    /* margin: auto auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border: 1px solid #bacdd8;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    border-radius: 4px;
+
+}
+
+img{
+    height: 350px;
+    width: 350px;
+    border-radius: 12px;
+}
+
+.text{
+    padding: 10px 10px;
+}
+
+.para{
+    padding: 10px 10px;
+}
+
+
+.chess-wrapper{
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+
+.chess-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border: 10px solid black;
+}
