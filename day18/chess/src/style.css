@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* 
+.app-container{
+    display: flex;
+    
+} */
+
+.app-container{
+    width: 100vw;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+
+   justify-content: center;
+   align-items: center;
+}
+
+.count-container{
+    display: flex;
+    border: 1px solid gray;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    /* justify-content: center; */
+}
+
+.box-container{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
