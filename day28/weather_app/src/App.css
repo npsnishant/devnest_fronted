@@ -1,0 +1,148 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+}
+
+.inputs{
+  margin: 45px 0px;
+}
+.inputs .search{
+  font-size: 20px;
+  padding: 3px 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: rgb(66, 62, 62);
+
+}
+
+.inputs .btn{
+  font-size: 20px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
+.wrapper{
+  position: absolute;
+  background-color: rgb(31, 133, 180);
+  height: 60vh;
+  width: 70vw;
+  top: 13%;
+  /* background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 94%); */
+}
+
+.container{
+  display: flex;
+}
+.left-container{
+  width: 70%;
+  /* background-color: cadetblue; */
+  background-color: #fde74c;
+background-image: linear-gradient(319deg, #fde74c 0%, #32ff7a 37%, #2fcbe0 100%);
+height: 60vh;
+
+}
+
+.left-container img{
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.left-container .left{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.left-container .left .temp{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.left-container .left .name{
+  font-size: 30px;
+}
+
+.left-container .left .text{
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.right-container{
+  width: 30%;
+  /* background-color: yellow; */
+  padding-top: 100px;
+  padding-left: 40px;
+  font-size: 17px;
+  background-color: #50d8d7;
+background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+
+}
+
+.right-container hr{
+  width: 270px;
+}
+
+.right-container .details{
+  margin-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.right-container .line{
+  margin-bottom: 25px;
+}
+
+span{
+  padding-left: 140px;
+}
+
+
+.right-container .cloudy{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+  padding-bottom: 8px;
+}
+
+
+.right-container .humidity{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+  padding-bottom: 8px;
+
+}
+
+.right-container .wind{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+  padding-bottom: 8px;
+
+}
+
+.right-container .precipition{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+}
